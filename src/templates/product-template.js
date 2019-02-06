@@ -10,7 +10,7 @@ export default function({ data }) {
 
   return (
     <Layout>
-      <h1>Single Product template</h1>
+      <h1 style={{ color: "red" }}>Single Product template</h1>
       <Img fluid={fluid} />
       <h1>
         {title}
